@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="Conecta ONG — plataforma que conecta ONGs, voluntários e doadores. Projetos, doações e transparência.">
+  <title>Conecta ONG — Início</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <!-- Skip link para usuários de teclado/leitores de tela -->
+  <a class="skip-link" href="#main">Ir para o conteúdo principal</a>
+
+  <!-- Cabeçalho com marca e navegação -->
+  <header class="site-header" role="banner">
+    <div class="container header-inner">
+      <a href="index.html" class="brand" aria-label="Ir para a página inicial">Conecta ONG</a>
+
+      <!-- botão para abrir menu no mobile -->
+      <button id="navToggle" aria-controls="mainNav" aria-expanded="false" aria-label="Abrir menu">
+        ☰
+      </button>
+
+      <nav id="mainNav" class="main-nav" role="navigation" aria-label="Menu principal">
+        <a href="index.html">Início</a>
+        <a href="projetos.html">Projetos</a>
+        <a href="voluntarios.html">Voluntários</a>
+        <a href="doacoes.html">Doações</a>
+        <a href="contato.html">Contato</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Conteúdo principal -->
+  <main id="main" class="container" role="main">
+    <!-- Hero / entrada -->
+    <section class="hero" aria-labelledby="hero-title">
+      <h1 id="hero-title">Conectando corações e ações</h1>
+      <p class="lead">Doadores, voluntários e ONGs trabalhando juntos para transformar comunidades com transparência e impacto.</p>
+      <img src="img/hero.jpg" alt="Voluntários trabalhando juntos" loading="lazy">
+      <p><a class="btn" href="projetos.html">Ver projetos</a> <a class="btn outline" href="doacoes.html">Doar agora</a></p>
+    </section>
+
+    <!-- Missão, visão e valores -->
+    <section class="institutional" aria-labelledby="missao">
+      <h2 id="missao">Missão, Visão e Valores</h2>
+
+      <div class="iv-grid">
+        <div>
+          <h3>Missão</h3>
+          <p>Fortalecer organizações e comunidades com ferramentas e recursos para gerar impacto social mensurável.</p>
+        </div>
+        <div>
+          <h3>Visão</h3>
+          <p>Ser referência em transparência, engajamento e resultados sociais em nossa região.</p>
+        </div>
+        <div>
+          <h3>Valores</h3>
+          <ul>
+            <li>Transparência</li>
+            <li>Colaboração</li>
+            <li>Empatia</li>
+            <li>Eficácia</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- Vídeo institucional -->
+    <section class="media" aria-labelledby="video-title">
+      <h2 id="video-title">Vídeo institucional</h2>
+      <video controls preload="metadata" width="100%" aria-describedby="video-desc">
+        <source src="midia/video-institucional.mp4" type="video/mp4">
+        <p id="video-desc">Seu navegador não suporta vídeo. <a href="midia/video-institucional.mp4">Baixe o vídeo</a>.</p>
+      </video>
+    </section>
+
+    <!-- Relatórios / transparência -->
+    <section class="transparency" aria-labelledby="transp-title">
+      <h2 id="transp-title">Relatórios de Transparência</h2>
+      <p>Publicamos relatórios trimestrais com prestação de contas, indicadores de impacto e documentos públicos.</p>
+      <ul>
+        <li><a href="docs/relatorio-trimestral-2025.pdf">Relatório Q1 2025</a></li>
+        <li><a href="docs/relatorio-trimestral-2024.pdf">Relatório 2024</a></li>
+      </ul>
+    </section>
+  </main>
+
+  <!-- Rodapé -->
+  <footer class="site-footer" role="contentinfo">
+    <div class="container">
+      <p>&copy; 2025 Conecta ONG — <a href="contato.html">Fale conosco</a></p>
+      <p class="small">Endereço fictício · Telefone: (00) 0000-0000</p>
+    </div>
+  </footer>
+
+  <!-- JS pequeno para menu mobile -->
+  <script src="js/script.js" defer></script>
+</body>
+</html>
