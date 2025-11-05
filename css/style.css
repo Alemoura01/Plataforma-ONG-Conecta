@@ -103,3 +103,41 @@ footer {
   padding: 2em;
   border-radius: 10px;
 }
+/* ==== VOLUNTÁRIOS ==== */
+.vol-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+  background-color: #f9f9f9;
+  padding: 2em;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.vol-form label {
+  font-weight: bold;
+}
+
+.vol-form input,
+.vol-form select,
+.vol-form textarea {
+  padding: 0.8em;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  font-size: 1em;
+}
+
+.vol-form button {
+  background-color: #00796b;
+  color: white;
+  border: none;
+  padding: 1em;
+  font-weight: bold;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.vol-form button:hover {
+  background-color: #004d40;
+}
